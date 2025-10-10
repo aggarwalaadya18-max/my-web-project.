@@ -1,0 +1,145 @@
+
+
+/* 🌸 Basic Page Setup */
+body {
+  font-family: 'Poppins', sans-serif; 
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🌸 Header Styling */
+header {
+  background-color: #3aafa9;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  position: sticky;
+  top: 0;
+}
+
+/* 🌸 Navigation Bar */
+nav ul {
+  list-style-type: none; /* removes bullets */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #3aafa9;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* 🌸 Section Styling */
+section {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+/* 🌸 Class Selector Example */
+.highlight {
+  background-color: #d1e8e2;
+  border-left: 4px solid #3aafa9;
+  padding: 10px;
+}
+
+/* 🌸 ID Selector Example */
+#main-section {
+  background-color: #ffffff;
+  border: 2px solid #3aafa9;
+}
+
+/* 🌸 Table Styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #3aafa9;
+  color: white;
+}
+
+/* 🌸 Buttons */
+button {
+  background-color: #3aafa9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2b7a78;
+}
+
+/* 🌸 Back to Top Button */
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #3aafa9;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#back-to-top:hover {
+  background-color: #2b7a78;
+}
+
+/* 🌸 Lists Styling (for skills or menu) */
+ul {
+  list-style-type: none; /* remove default bullets */
+  padding-left: 0;
+}
+
+li {
+  background-color: #d1e8e2;
+  margin: 8px 0;
+  padding: 10px;
+  border-left: 4px solid #3aafa9;
+  border-radius: 5px;
+}
+
+/* 🌸 Horizontal Line */
+hr {
+  border: 1px solid #ddd;
+  margin: 30px 0;
+}
+
+/* 🌸 Footer */
+footer {
+  background-color: #3aafa9;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
